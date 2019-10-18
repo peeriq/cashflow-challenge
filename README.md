@@ -35,10 +35,10 @@ The goal here is to create a mini product which allows a user to input the loan 
 interest rate (APY) and output the amortization schedule. The product will consist of two components:
 
 - A backend web server which will supply a RESTful API and render results in the format specified below
-- A frontend application will will make calls to the backend and use the renturned data to render
+- A frontend application will will make calls to the backend and use the returned data to render
 a webpage
 
-The interest
+
 
 # Requirements
 
@@ -48,7 +48,7 @@ The Backend service should receive, as input, the following fields:
 
 - Loan amount (or principal)
 - Interest rate (expressed as an annual percentage rate or APY)
-- Term
+- Term (in years)
 
 And return, as output, the following:
 
