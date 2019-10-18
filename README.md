@@ -28,7 +28,7 @@ We promise to respond!
 
 Amortization is paying off a loan over a set period of time in equal installments. Part of each
 payment goes to the loan principal and part goes to the interest. Typically, when you take out
-a loan, the majority of the payment is applied towards the interest. As you make more payments a larger
+a loan, the majority of your initial payments are applied towards the interest. As you make more payments a larger
 proportion of each payment is applied towards the principal.
 
 The goal here is to create a mini product which allows a user to input the loan amount, term and
@@ -36,7 +36,7 @@ interest rate (APY) and output the amortization schedule. The product will consi
 
 - A backend web server which will supply a RESTful API and render results in the format specified below
 - A frontend application will will make calls to the backend and use the returned data to render
-a webpage
+a webpage that visualizes the amortization schedule
 
 
 
