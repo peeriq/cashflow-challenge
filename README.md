@@ -116,8 +116,10 @@ a more visual representation like a plot or graph. Presentation is up to you!
 
 There are only a couple front end requirements:
 
-* Your Frontend code must call the Backend that you've built. (For this reason, it's suggested that you tackle building
-the Backend first.)
+* Your Frontend code **must** call the Backend that you've built in order to run the calculation, e.g., the input
+page will make a call to the Backend which will receive the call, process the request and output the result. The 
+Frontend will receive this result and render the page appropriately.
+(For this reason, it's suggested that you tackle building the Backend first.)
 * Term must be <= 30 years. Build a safeguard or input check to prevent users from entering data that is out of bounds. A message
 box or modal is a good way to notify the user of an error.
 
