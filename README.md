@@ -104,7 +104,21 @@ payments or 120 entries. Each entry should generally follow the following format
 
 ## Frontend
 
+The Frontend will consist of two components:
+
+1. An input page that will allow the user to input the Loan Amount, Interest rate and Term
+2. An output page that will display the amortization results. This output can take any form. You may decide to go
+with a tabular layout, simply listing each month's data as a row in a larger data frame. Or you may decide to go with
+a more visual representation like a plot or graph. Presentation is up to you!
+
+There are only a couple front end requirements:
+
+* Your Frontend code must call the Backend that you've built. (For this reason, it's suggested that you tackle building
+the Backend first.)
+* Term must be <= 30 years. Build a safeguard or input check to prevent users from entering data that is out of bounds. A message
+box or modal is a good way to notify the user of an error.
+
 # Submission
 
 When you're ready to submit your work, zip the source directory
-and email it to your HR contact. We'll take a look and respond shortly!
+and email it to your HR contact. We're excited to see what you come up with!
