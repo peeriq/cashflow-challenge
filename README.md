@@ -102,6 +102,9 @@ payments or 120 entries. Each entry should generally follow the following format
 }
 ```
 
+If you're applying for the Backend engineering position, you're done! Jump forward to Submission to see how to
+submit your response.
+
 ## Frontend
 
 The Frontend will consist of two components:
