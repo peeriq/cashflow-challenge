@@ -1,6 +1,5 @@
 # cashflow-challenge
 
-## Background
 
 PeerIQ is building out our engineering team and we are seeking exceptional candidates to fill the
 role of either Full Stack Engineer or Backend Engineer. We have created this test as an alternative
