@@ -72,7 +72,7 @@ in `resources/`.
 
 The Backend service should return a JSON blob consisting of a list with the above fields, one
 for every single month. For example, a loan with a ten year term would have 10 years * 12 months / year
-payments or 120 entries. Each entry should generally following the following format:
+payments or 120 entries. Each entry should generally follow the following format:
 
 ```
 {
