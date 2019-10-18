@@ -1,14 +1,30 @@
-# cashflow-challenge
-
+# Background
 
 PeerIQ is building out our engineering team and we are seeking exceptional candidates to fill the
 role of either Full Stack Engineer or Backend Engineer. We have created this test as an alternative
 to traditional coding challenges. We believe that artificial problems with no
 connection to our subject matter or to the types of technical challenges we face day to day at
 PeerIQ aren't useful in evaluating candidates. Instead, we've created this test to let you show off
-your skills and problem solving techniques.
+your problem solving skills.
 
-## The Problem
+A few things to consider before diving in:
+
+1. **Completing the challenge will take time.** The test is designed to give us a lot of information we
+need to know about you! Your onsite interview will focus largely
+on the process and design decisions that you made while completing the challenge.
+2. **There is no requirement on any specific technology used in this challenge.** Use your favorite
+language or favorite web framework. There's no requirement that you use any specific technology to
+accomplish the challenge!
+3. **Show your work!** Comment your code liberally to indicate your thought process. All designs
+have certain technical advantages and trade offs. Make sure you add these as comments in the code
+to let us know what you're thinking!
+4. **Questions?** This is a complicated challenge and there will inevitably be parts
+that are unclear or even mistakes in the documentation or resources. If you have a comment, question
+or concern about the challenge and want to let us know, 
+feel free to [open an issue](https://github.com/peeriq/cashflow-challenge/issues/new) in this repository!
+We promise to respond!
+
+# Cashflow Challenge
 
 Amortization is paying off a loan over a set period of time in equal installments. Part of each
 payment goes to the loan principal and part goes to the interest. Typically, when you take out
@@ -24,9 +40,9 @@ a webpage
 
 The interest
 
-## Requirements
+# Requirements
 
-### Backend
+## Backend
 
 The Backend service should receive, as input, the following fields:
 
@@ -86,7 +102,9 @@ payments or 120 entries. Each entry should generally follow the following format
 }
 ```
 
-## Submission
+## Frontend
+
+# Submission
 
 When you're ready to submit your work, zip the source directory
 and email it to your HR contact. We'll take a look and respond shortly!
