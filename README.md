@@ -87,3 +87,6 @@ payments or 120 entries. Each entry should generally following the following for
 ```
 
 ## Submission
+
+When you're ready to submit your work, zip the source directory
+and email it to your HR contact. We'll take a look and respond shortly!
