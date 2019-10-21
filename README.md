@@ -61,16 +61,22 @@ And return, as output, the following:
 - Total interest
 
 
+**Example.** Suppose we wanted to compute the amortization schedule for a loan with the following characteristics:
+- Loan amount = $250,000
+- Term = 30 years (360 months)
+- Interest rate = 3.625%
+
+
 The first step is to compute the fixed payment amount. This can be done using the following formula:
 
 ![equation](https://latex.codecogs.com/gif.latex?A%20%3D%20P%20%5Cfrac%7Br%281&plus;r%29%5En%7D%7B%281&plus;r%29%5En%20-%201%7D)
 
 Where `A` is the payment amount per period, `P` is the intial principal (the loan amount, in our example
-$250,000), `r` is the interest rate per period (in this case 3.625% / 12 or 0.00302083333 (approx. 0.302%)). `n` is the number of payments, in this case 360 months (30 years * 12 months / year).
+$250,000), `r` is the interest rate per period (in this case, 3.625% / 12 or 0.00302083333 (approx. 0.302%)).
+`n` is the number of payments, in this case 360 months (30 years * 12 months / year).
 
 Once the fixed payment amount is computed, we can compute the remaining fields.
-For example, in a loan where the loan amount is $250,000, interest rate is 3.625% and term is 30 years, the
-above fields can be computed as follows:
+In our example, the above fields can be computed as follows:
 
 Field Name | Description
 --- | ----
