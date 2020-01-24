@@ -1,23 +1,23 @@
 # Background
 
-PeerIQ is building out our engineering team and we are seeking exceptional candidates to fill the
-role of either Full Stack Engineer or Backend Engineer. We have created this test as an alternative
+PeerIQ is growing and we are seeking exceptional candidates to build out our engineering team!
+We have created this test as an alternative
 to traditional coding challenges. We believe that artificial problems with no
-connection to our subject matter or to the types of technical challenges we face day to day at
-PeerIQ aren't useful in evaluating candidates. Instead, we've created this test to let you show off
-your problem solving skills.
+connection to our subject matter given under artificial conditions (no internet access, unrealistic time constraints) 
+aren't useful in evaluating candidates. Instead, we've created this test to let you show off
+your problem solving skills!
 
 A few things to consider before diving in:
 
 1. **Completing the challenge will take time.** The test is designed to give us a lot of information we
 need to know about you! Your onsite interview will focus largely
-on the process and design decisions that you made while completing the challenge.
+on the process and design decisions that you made while completing the challenge. 
 2. **There is no requirement on any specific technology used in this challenge.** Use your favorite
 language or favorite web framework. There's no requirement that you use any specific technology to
 accomplish the challenge!
 3. **Show your work!** Comment your code liberally to indicate your thought process. All designs
 have certain technical advantages and trade offs. Make sure you add these as comments in the code
-to let us know what you're thinking!
+to let us know what you're thinking! Include readmes and architecture drawings where possible!
 4. **Questions?** This is a complicated challenge and there will inevitably be parts
 that are unclear or even mistakes in the documentation or resources. If you have a comment, question
 or concern about the challenge and want to let us know, 
@@ -31,7 +31,10 @@ payment goes to the loan principal and part goes to the interest. Typically, whe
 a loan, the majority of your initial payments are applied towards the interest. As you make more payments a larger
 proportion of each payment is applied towards the principal.
 
-The goal here is to create a mini product which allows a user to input the loan amount, term and
+
+# Requirements
+
+The goal is to create a mini product which allows a user to input the loan amount, term and
 interest rate (APY) and output the amortization schedule. The product will consist of two components:
 
 - A backend web server which will supply a RESTful API and render results in the format specified below
@@ -40,7 +43,6 @@ a webpage that visualizes the amortization schedule
 
 
 
-# Requirements
 
 ## Backend
 
