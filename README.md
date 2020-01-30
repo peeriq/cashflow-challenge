@@ -87,7 +87,7 @@ Starting balance | The starting balance, e.g., for the first month $250,000, oth
 Fixed payment | The fixed payment amount computed above. Note! This will be the same in every payment!
 Interest payment | The interest payment for this period, computed as the starting balance times the APY divided by 12
 Principal payment | The principal payment for this period computed as the fixed payment minus the interest payment
-Ending balance | The starting balance minus the interest payment and the principal payment
+Ending balance | The starting balance minus the principal payment
 Total interest | The total interest paid, computed as a rolling sum of all the interest payments to date
 
 This example computation with the above parameters ($250,000 principal, 30 year term, 3.625% APY)
